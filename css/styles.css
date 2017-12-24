@@ -1,0 +1,52 @@
+*{
+    font-family: 'Merriweather', serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    margin: 0;
+    padding: 5px 0 5px 0;
+    background-color: darkslategrey;
+    text-align: center;
+}
+.top h2{
+    padding-right: 5%;
+    color: white; 
+}
+.header{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.header p{
+    color: gray;
+}
+.line1 {
+	border-top: 5px solid black;
+}
+
+.line2 {
+	border-top: 2px solid black;
+    margin-top: -5px;
+}
+label {
+    margin: 0 0 0 5px;
+}
+input {
+    margin: 5px;
+}
+::-webkit-input-placeholder {
+    text-align: right;
+}
+input:focus{
+    border-color: #2f4f4f;
+}
+select {
+    width: 177px;
+    margin-left: 5px; 
+}
+.line3 {
+    border-top: 15px;
+    border-color: black;
+}
