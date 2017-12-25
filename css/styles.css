@@ -35,18 +35,26 @@ label {
 }
 input {
     margin: 5px;
+    border-radius: 5px;
 }
 ::-webkit-input-placeholder {
     text-align: right;
 }
 input:focus{
     border-color: #2f4f4f;
+    outline: none;
 }
 select {
     width: 177px;
     margin-left: 5px; 
 }
+#zip{
+    width: 90px;
+}
 .line3 {
     border-top: 15px;
     border-color: black;
+}
+.line1, .line2, .line3{
+    width: 90%;
 }
