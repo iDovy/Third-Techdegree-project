@@ -104,6 +104,9 @@ textarea {
 h5{
     text-align: center;
 }
+fieldset{
+    border-width: 0;
+}
 @media (min-width: 768px){
 .wrapper{
     margin: 0 20% 0 20%;
